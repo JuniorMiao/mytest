@@ -22,5 +22,6 @@ public class FullAnnotationTransaction {
         account.setUid(45);
         account.setMoney(10000);
         accountService.save(account);
+		System.out.println("=====4444444444=======");
     }
 }
